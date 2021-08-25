@@ -122,3 +122,8 @@ describe('AppComponent', () => {
   })
 
 });
+/*
+  ANOTACIONES DE KARMA
+  Karma es un entorno de pruba productivo
+  Angular ya viene por defecto con karma
+*/

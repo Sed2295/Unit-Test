@@ -84,7 +84,7 @@ describe('UserService', () => {
     })
     //Validamos la url de nuestra API
     const req = httpMock.expectOne('https://api.github.com/users')
-    expect(req.request.method).toBe('GET')
+    expect(req.request.method).toBe('GET') //Validamos que sea un metodo GET
     req.flush(mockUser) //Proporciona valores ficticios como respuesta de nuestras peticiones
   })
 });

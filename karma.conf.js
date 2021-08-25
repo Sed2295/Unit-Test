@@ -38,6 +38,7 @@ module.exports = function (config) {
     logLevel: config.LOG_INFO,
     autoWatch: true,
     browsers: ['Chrome'],
+    //single run sirve para solo ejecutar las pruebas y despues se tira el servidor, no sigue corriendo
     singleRun: false,
     restartOnFileChange: true
   });
